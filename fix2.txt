@@ -1,0 +1,18 @@
+<1. skapa en ny branch och skapa commits i feature2 >
+<git checkout -b feature2 >
+<New-Item -ItemType File -Name fix1.txt >
+<git add fix1.txt >
+<git commit -m Lägger till fix1.txt >
+<New-Item -ItemType File -Name fix2.txt >
+<git add fix2.txt >
+<git commit -m Lägger till fix2.txt >
+<#2. Växla tillbaka till main >
+<git checkout main >
+<3. Cherry-pick commit för fix2.txt till main>
+<git cherry-pick <commit-hash-för-fix2.txt> >
+<4. Kontrollera commit-historik >
+<git log --oneline >
+<5. Skapa en commit med dessa kommandon i fix2.txt >
+<echo samt kommandona ovan för att komma hit och de läggs till i fix2.txt >
+<git add fix2.txt >
+<git commit -m samt meddalande för att visa att man nått hit >

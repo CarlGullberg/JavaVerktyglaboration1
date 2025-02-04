@@ -1,4 +1,3 @@
-
 Duck
 Mahmut
 Cat
